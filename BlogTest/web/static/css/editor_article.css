@@ -1,0 +1,47 @@
+.editor_container {
+    width: 70%;
+    margin: auto;
+}
+
+.tips_margin span {
+    margin: 12px 0;
+}
+
+.tips_margin select {
+    font-size: 14px;
+    font-family: fantasy;
+}
+
+.article_tips{
+    margin: 13px 0;
+}
+.article_tips .tips_title{
+    line-height: 18px;
+    font-size: 18px;
+    color: #f3969a;
+
+}
+.article_tips .badge {
+    margin: 0 5px;
+}
+.article_summary textarea{
+    resize: none;
+}
+.type_title {
+    color: #f3969a;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 0px;
+}
+.private_title span{
+    color: #f3969a;
+    line-height: 20px;
+    font-size: 16px;
+}
+.private_tips{
+    color: red;
+    line-height: 20px;
+}
+.submit_container {
+    padding-bottom: 10px;
+}

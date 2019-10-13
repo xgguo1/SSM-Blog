@@ -1,0 +1,110 @@
+.warning_tips {
+    margin-top: 10px;
+}
+
+.manage_content {
+    margin: auto;
+}
+
+.manage_content .manage_left {
+    /*border: 1px solid;*/
+    /*height: 950px;*/
+    /*background-color: #fff;*/
+}
+
+.manage_content .manage_left a {
+    font-size: 16px;
+    color: #888888;
+    font-family: fantasy;
+}
+
+.manage_left div a:hover {
+    color: #fff;
+    border-color: #f5c1c5;
+    background-color: #f5c1c5;
+}
+
+.manage_left .list-group-item.active {
+    color: #fff;
+    border-color: #f5c1c5;
+    background-color: #f5c1c5;
+}
+
+.manage_content .manage_right {
+    border: 2px solid #9bc5ba;
+    border-radius: 5px;
+    /*height: 950px;*/
+    background-color: #fff;
+}
+
+.manage_content .manage_right ul {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.manage_content .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #f5c1c5;
+    border-color: #f5c1c5;
+}
+
+.article_search {
+    /*height: 45px;*/
+    /*border: 1px solid;*/
+    margin-bottom: 10px;
+}
+
+.article_search div {
+    margin: auto;
+}
+
+.table_style {
+    /*height: 860px;*/
+}
+
+.table_style thead tr {
+    text-align: center;
+}
+
+.table_style tbody tr {
+    text-align: center;
+}
+
+.table_style .table-primary th, .table_style .table-primary td {
+    /*background-color: #f5c1c5;*/
+    color: #666;
+    background-color: #fff;
+}
+
+.table_style .table-hover .table-primary:hover, .table-hover .table-primary:hover > th, .table-hover .table-primary:hover > td {
+    /*background-color: #f3969a !important;*/
+    color: #fff;
+    background-color: #f5c1c5!important;
+
+}
+
+.over_hidden {
+    font-size: 18px;
+    line-height: 25px;
+    height: 52px;
+    overflow: hidden;
+    white-space: nowrap; /*规定文本不进行换行*/
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+
+.view_img {
+    font-size: 18px;
+    color: #73b2f5;
+}
+
+.edit_img {
+    font-size: 18px;
+    color: #08ab2d;
+    padding: 0 8px;
+}
+
+.trash_img {
+    font-size: 18px;
+    color: #f16969;
+}

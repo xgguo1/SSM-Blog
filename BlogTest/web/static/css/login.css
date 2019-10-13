@@ -1,0 +1,44 @@
+.login_container {
+    background-color: #fff;
+}
+
+.login_register_brand {
+    margin:auto!important;
+    border-radius: 10px;
+    height: 60px;
+    background: #f7e3e3;
+    line-height: 60px;
+    font-family: fantasy;
+    font-size: 14px;
+}
+
+.login_register_brand h3 {
+    font-family: fantasy;
+    font-size: 24px;
+    display: inline;
+}
+
+.content_container .login_content_left {
+    margin:0 auto;
+    /*height: 870px;*/
+    /*border: 1px solid;*/
+    background-color: white;
+}
+
+.content_container .login_content_right {
+    margin:0 auto;
+    /*height: 870px;*/
+    /*border: 1px solid;*/
+}
+
+.content_container .login_content {
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.content .login_content_item_left {
+    height: 340px;
+    border: 1px solid;
+    margin: auto;
+}

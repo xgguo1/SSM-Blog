@@ -1,0 +1,115 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: "SimSun", "宋体", "Arial Narrow";
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #009;
+}
+
+a:visited {
+    color: #800080;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #c00;
+    text-decoration: underline;
+}
+/*头部样式*/
+.bran_container {
+    width: 100%;
+    /*height: 145px;*/
+    /*border: 1px solid;*/
+}
+
+.brand_title {
+    width: 100%;
+}
+
+.login_btn {
+    width: 81px;
+    background-color: #F3969A;
+    border-color: #F3969A;
+}
+
+.brand_title span {
+    margin: auto;
+}
+
+.bg-dark {
+    box-shadow: 4px 6px 6px #f15a61;
+    border-radius: 10px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.content_container {
+    margin-top: 25px;
+    width: 100%;
+    /*height: 950px;*/
+    background-color: #EEEEEE;
+}
+
+/*中间容器*/
+.content_container {
+    margin-top: 25px;
+    width: 100%;
+    /*height: 950px;*/
+    /*background-color: #EEEEEE;*/
+    background-color: #dddbdb;
+}
+/*底部*/
+
+.footer_container {
+    width: 100%;
+    height: 250px;
+    background: #343a40;
+    border: 1px solid;
+}

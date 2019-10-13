@@ -1,37 +1,79 @@
 # SSM-Blog
 
-#### 介绍
-Bootstrap+Spring+Spring MVC+Mybatis实现个人博客网站！！！
+#### 功能介绍
+
+ 1. 用户注册登录
+ 2. 用户个人中心
+ 4. 文章浏览发布
+ 5. 文章管理
+ 6. 文章分页与检索
 
 #### 软件架构
-软件架构说明
+
+> 这个博客网站后端主要用到了Spring MVC + Spring + Mybatis技术实现,其中分页功能实现使用了Mybatis分页插件Pagehelper。前端用了bootstrap 4.x实现界面展示。动画效果用了Animate.css
+
+数据库E-R图（这里只画出主要的实体和属性）：
+
+<div align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/er1.png">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/er2.png">
+</div>
+
+#### 小程序端页面展示
+
+**1. 博客首页**
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/index.PNG">
+</div>
+
+**2. 用户登录注册**
+
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/login-register.png">
+</div>
+
+**3.登录成功后》》个人中心、文章管理**
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/persional.PNG">
+</div>
 
 
-#### 安装教程
+ **4. 文章发布**
+<div align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/add-article.PNG">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/add-article1.PNG">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/add-article3.PNG">
+</div>
 
-1. xxxx
-2. xxxx
-3. xxxx
+ **5. 文章编辑、文章查看**
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/edit.PNG">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/show-article.PNG">
+</div>
+
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+> 本项目是本人上完SSH基础课程后的练手项目，**已经不再维护**。项目没有用Maven管理jar包，可能会有些乱，但还是可以跑起来的。如果你是ssm初学者，那么这个项目可以适当参考一下里面spring注解的基本使用、mybatis注解实现数据库增删改查、ckeditor集成QQ表情包如何应用到项目中。
 
-#### 参与贡献
+#### 项目目录结构
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/pro-dir.png" width="320px" height="550px">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/pro-dir1.png" width="320px" height="550px">
+</div>
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+> 此外，本人还用java web技术实现了另外一个博客网站，这里只展示一下网站首页：
 
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/show-another.PNG">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/show-another1.PNG" >
+</div>
 
-#### 码云特技
+#### 技术交流与分享
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 关注我CSDN博客：[https://blog.csdn.net/weixin_41835653](https://blog.csdn.net/weixin_41835653)
+2. 我的码云：[https://gitee.com/xgguo2](https://gitee.com/xgguo2)
+3. 我的微信公众号：
+<div style="display:bolck;" align = "center">
+<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/qrcode_for_gh_85b4e890d98b_258.jpg" width="320px" height="320px">
+</div>

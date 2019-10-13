@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--引入数据库配置文件-->
+    <properties resource="resources/db.properties"></properties>
+    <!--开启日志-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"></setting>
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
+    <!--配置分页器拦截器-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--分页参数合理化：reasonable：分页合理化参数，默认值为false。当该参数设置为 true 时，pageNum<=0 时会查询第一页，pageNum>pages（超过总数时），会查询最后一页。默认false 时，直接根据参数进行查询。-->
+            <property name="reasonable" value="true"></property>
+        </plugin>
+    </plugins>
+    <!--配置环境 ，默认的环境id为mysql -->
+    <environments default="mysql">
+        <!-- 配置id为mysql的数据库环境 -->
+        <environment id="mysql">
+            <!-- 使用JDBC的事务管理 -->
+            <transactionManager type="JDBC"/>
+            <!--数据库连接池 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置mapper配置文件路径-->
+    <mappers>
+        <package name="com.xgguo.mapper"></package>
+    </mappers>
+</configuration>
