@@ -19,7 +19,7 @@
 <img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/er2.png">
 </div>
 
-#### 小程序端页面展示
+#### 博客页面展示
 
 **1. 博客首页**
 <div style="display:bolck;" align = "center">
