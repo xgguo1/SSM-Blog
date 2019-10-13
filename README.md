@@ -1,4 +1,4 @@
-# SSM-Blog
+SSM-Blog# SSM-Blog
 
 #### 功能介绍
 
@@ -15,40 +15,40 @@
 数据库E-R图（这里只画出主要的实体和属性）：
 
 <div align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/er1.png">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/er2.png">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/er1.png">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/er2.png">
 </div>
 
 #### 小程序端页面展示
 
 **1. 博客首页**
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/index.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/index.PNG">
 </div>
 
 **2. 用户登录注册**
 
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/login-register.png">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/login-register.png">
 </div>
 
 **3.登录成功后》》个人中心、文章管理**
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/persional.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/persional.PNG">
 </div>
 
 
  **4. 文章发布**
 <div align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/add-article.PNG">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/add-article1.PNG">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/add-article3.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/add-article.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/add-article1.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/add-article3.PNG">
 </div>
 
  **5. 文章编辑、文章查看**
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/edit.PNG">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/show-article.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/edit.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/show-article.PNG">
 </div>
 
 
@@ -58,15 +58,15 @@
 
 #### 项目目录结构
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/pro-dir.png" width="320px" height="550px">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/pro-dir1.png" width="320px" height="550px">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/pro-dir.png" width="320px" height="550px">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/pro-dir1.png" width="320px" height="550px">
 </div>
 
 > 此外，本人还用java web技术实现了另外一个博客网站，这里只展示一下网站首页：
 
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/show-another.PNG">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/show-another1.PNG" >
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/show-another.PNG">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/show-another1.PNG" >
 </div>
 
 #### 技术交流与分享
@@ -75,5 +75,5 @@
 2. 我的码云：[https://gitee.com/xgguo2](https://gitee.com/xgguo2)
 3. 我的微信公众号：
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/SellBookMiniProgram/raw/master/README-IMG/qrcode_for_gh_85b4e890d98b_258.jpg" width="320px" height="320px">
+<img src="https://gitee.com/xgguo2/SSM-Blog/raw/master/README-IMG/qrcode_for_gh_85b4e890d98b_258.jpg" width="320px" height="320px">
 </div>
